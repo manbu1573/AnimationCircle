@@ -15,6 +15,8 @@
 		36C69377209B04D80072891A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C69376209B04D80072891A /* main.m */; };
 		36C69381209B04D80072891A /* AnimationCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C69380209B04D80072891A /* AnimationCircleTests.m */; };
 		36C6938C209B04D80072891A /* AnimationCircleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6938B209B04D80072891A /* AnimationCircleUITests.m */; };
+		36C6939B209B04F20072891A /* AnimationCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C69399209B04F10072891A /* AnimationCircleView.m */; };
+		36C6939E209B056E0072891A /* UIView+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C6939D209B056E0072891A /* UIView+WB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		36C69387209B04D80072891A /* AnimationCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36C6938B209B04D80072891A /* AnimationCircleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationCircleUITests.m; sourceTree = "<group>"; };
 		36C6938D209B04D80072891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36C69399209B04F10072891A /* AnimationCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCircleView.m; sourceTree = "<group>"; };
+		36C6939A209B04F20072891A /* AnimationCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCircleView.h; sourceTree = "<group>"; };
+		36C6939C209B056E0072891A /* UIView+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WB.h"; sourceTree = "<group>"; };
+		36C6939D209B056E0072891A /* UIView+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WB.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				36C69368209B04D60072891A /* AppDelegate.m */,
 				36C6936A209B04D60072891A /* ViewController.h */,
 				36C6936B209B04D60072891A /* ViewController.m */,
+				36C6939A209B04F20072891A /* AnimationCircleView.h */,
+				36C69399209B04F10072891A /* AnimationCircleView.m */,
+				36C6939C209B056E0072891A /* UIView+WB.h */,
+				36C6939D209B056E0072891A /* UIView+WB.m */,
 				36C6936D209B04D60072891A /* Main.storyboard */,
 				36C69370209B04D80072891A /* Assets.xcassets */,
 				36C69372209B04D80072891A /* LaunchScreen.storyboard */,
@@ -263,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36C6936C209B04D60072891A /* ViewController.m in Sources */,
+				36C6939B209B04F20072891A /* AnimationCircleView.m in Sources */,
+				36C6939E209B056E0072891A /* UIView+WB.m in Sources */,
 				36C69377209B04D80072891A /* main.m in Sources */,
 				36C69369209B04D60072891A /* AppDelegate.m in Sources */,
 			);
