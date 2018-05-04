@@ -18,9 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+    {
+        self.edgesForExtendedLayout = UIRectEdgeBottom;
+    }
     // Do any additional setup after loading the view, typically from a nib.
     self.animationCircleView = [AnimationCircleView new];
-    self.animationCircleView.frame = CGRectMake(0, 64, self.view.frame.size.width, 200);
+    self.animationCircleView.frame = CGRectMake(0, 100, self.view.frame.size.width, 200);
     self.animationCircleView.backColor = [UIColor cyanColor];
     self.animationCircleView.titleArr = @[@"故障码",@"就绪状态",@"p200",@"动力系统",@"协议"];
     [self.animationCircleView stoken];
